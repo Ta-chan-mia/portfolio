@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WORKS</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ポートフォリオです">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="header-container">
+      <h1 class="logo">PORTFOLIO</h1>
+      <nav class="nav-pc">
+        <ul>
+          <li><a href="/">TOP</a></li>
+          <li><a href="profile.html#profile">PROFILE</a></li>
+          <li><a href="works.html#works">WORKS</a></li>
+          <li><a href="contact.html#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+         <img src="images/button-menu.png" alt="ナビゲーションを開く">
+       </button>
+       <div id="nav-sp">
+         <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+            <img src="images/button-close.png" alt="ナビゲーションを閉じる">
+         </button>
+         <nav>
+            <ul>
+               <li>
+                  <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+               </li>
+               <li><a class="menu" href="profile.html" onclick="document.getElementById('nav-sp').style.display = 'none'">PROFILE</a></li>
+               <li><a class="menu" href="works.html" onclick="document.getElementById('nav-sp').style.display = 'none'">WORKS</a></li>
+               <li><a class="menu" href="contact.html" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
+            </ul>
+         </nav>
+         <div class="sns">
+            <a href="https://x.com/2sNzC3mHD0HVJXC">
+                <img src="images/arcticons_dove-icon-pack.png" alt="Xのリンク">
+            </a>
+         </div>
+    </div>
+  </header>
+<!-- 実績セクション（WORKS） -->
+    <section id="works" class="works-section">
+      <h2 class="section-title">WORKS</h2>
+      <div class="works-grid">
+        <div class="works-content">
+          <div class="content-1"><img src="images/27860387 2.png" alt="広告バナー"></div>
+          <p>広告バナーのサンプル</p>
+          </div>
+          <div class="works-content">
+            <div class="content-1"><img src="images/27860390 1.png" alt="LP"></div>
+            <p>LPのサンプル</p>
+          </div>
+          <div class="works-content">
+            <div class="content-1"><img src="images/26333203 1.png" alt="コーポレートサイト"></div>
+            <p>コーポレートサイトのサンプル</p>
+          </div>
+        <!-- <div class="works-item">
+          <div class="works-thumb bg-pink"></div>
+          <p>広告バナーのサンプル</p>
+        </div>
+        <div class="works-item">
+          <div class="works-thumb bg-yellow"></div>
+          <p>LPのサンプル</p>
+        </div>
+        <div class="works-item">
+          <div class="works-thumb bg-blue"></div>
+          <p>コーポレートのサンプル</p>
+        </div> -->
+      </div>
+      
+    </section>
+    <footer class="footer-inner">
+    <nav class="footer-link">
+      <ul>
+        <li><a href="/">TOP</a></li>
+        <li><a href="profile.html#profile">PROFILE</a></li>
+        <li><a href="works.html#works">WORKS</a></li>
+        <li><a href="contact.html#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="footer-sns"></div>
+    <p class="copyright">&copy; 2026 PORTFOLIO. All Rights Reserved.</p>
+  </footer>
+</body>
